@@ -1,0 +1,815 @@
+
+
+Başlangıç 
+https://claude.ai/chat/8736d80a-eb24-4158-b0a8-fcad763719f1
+
+
+
+node -v
+v22.21.1
+npm -v
+10.9.4
+where.exe node
+C:\Program Files\nodejs\node.exe
+nvm list
+nvm : The term 'nvm' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ nvm list
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (nvm:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+npm ls -g --depth=0
+C:\Users\ramazan\AppData\Roaming\npm
+└── @angular/cli@19.2.11
+ng version
+
+     _                      _                 ____ _     ___
+    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+   / △ \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+ /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+                |___/
+    
+
+Angular CLI: 19.2.11
+Node: 22.21.1
+Package Manager: npm 10.9.4
+OS: win32 x64
+
+Angular: 
+... 
+
+Package                      Version
+------------------------------------------------------
+@angular-devkit/architect    0.1902.11 (cli-only)
+@angular-devkit/core         19.2.11 (cli-only)
+@angular-devkit/schematics   19.2.11 (cli-only)
+@schematics/angular          19.2.11 (cli-only)
+tsc -v
+tsc : The term 'tsc' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ tsc -v
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (tsc:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+dotnet --list-sdks
+5.0.416 [C:\Program Files\dotnet\sdk]
+6.0.428 [C:\Program Files\dotnet\sdk]
+8.0.404 [C:\Program Files\dotnet\sdk]
+9.0.319 [C:\Program Files\dotnet\sdk]
+10.0.402 [C:\Program Files\dotnet\sdk]
+dotnet --list-runtimes
+Microsoft.AspNetCore.App 3.1.32 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+Microsoft.AspNetCore.App 5.0.17 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+Microsoft.AspNetCore.App 6.0.36 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+Microsoft.AspNetCore.App 7.0.20 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+Microsoft.AspNetCore.App 8.0.11 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+Microsoft.AspNetCore.App 8.0.32 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+Microsoft.AspNetCore.App 9.0.21 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+Microsoft.AspNetCore.App 10.0.13 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+Microsoft.NETCore.App 3.1.32 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+Microsoft.NETCore.App 5.0.17 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+Microsoft.NETCore.App 6.0.36 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+Microsoft.NETCore.App 7.0.20 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+Microsoft.NETCore.App 8.0.11 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+Microsoft.NETCore.App 8.0.32 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+Microsoft.NETCore.App 9.0.21 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+Microsoft.NETCore.App 10.0.13 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+Microsoft.WindowsDesktop.App 3.1.32 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+Microsoft.WindowsDesktop.App 5.0.17 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+Microsoft.WindowsDesktop.App 6.0.36 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+Microsoft.WindowsDesktop.App 7.0.20 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+Microsoft.WindowsDesktop.App 8.0.11 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+Microsoft.WindowsDesktop.App 8.0.32 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+Microsoft.WindowsDesktop.App 9.0.21 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+Microsoft.WindowsDesktop.App 10.0.13 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]”
+dotnet tool list -g
+Package Id      Version      Commands 
+--------------------------------------
+dotnet-ef       9.0.5        dotnet-ef
+git --version
+git version 2.55.0.windows.5
+sqllocaldb versions
+Microsoft SQL Server 2016 (13.0.7037.1)
+Microsoft SQL Server 2019 (15.0.4382.1)
+Microsoft SQL Server 2025 (17.0.4025.3)
+sqllocaldb info
+devextreme
+MSSQLLocalDB
+sqllocaldb info mssqllocaldb
+Name:               MSSQLLocalDB
+Version:            15.0.4382.1
+Shared name:        
+Auto-create:        Yes
+State:              Running
+Last start time:    11.11.2026 13:33:40
+Instance pipe name: np:\\.\pipe\LOCALDB#C1915C7A\tsql\query
+Get-Service *SQL* | Select-Object Status, Name, DisplayName
+
+      Status Name                           DisplayName                                          
+      ------ ----                           -----------                                          
+     Running MSOLAP$MSSQLSERVERDEV          SQL Server Analysis Services (MSSQLSERVERDEV)        
+     Running MSSQL$MSSQLSERVERDEV           SQL Server (MSSQLSERVERDEV)                          
+     Running MSSQL$SQLEXPRESS               SQL Server (SQLEXPRESS)                              
+     Running MSSQL$SQLEXPRESS01             SQL Server (SQLEXPRESS01)                            
+     Running MSSQLFDLauncher$MSSQLSERVERDEV SQL Full-text Filter Daemon Launcher (MSSQLSERVERDEV)
+     Running MSSQLLaunchpad$MSSQLSERVERDEV  SQL Server Launchpad (MSSQLSERVERDEV)                
+     Stopped SQLAgent$MSSQLSERVERDEV        SQL Server Agent (MSSQLSERVERDEV)                    
+     Stopped SQLAgent$SQLEXPRESS            SQL Server Agent (SQLEXPRESS)                        
+     Stopped SQLAgent$SQLEXPRESS01          SQL Server Agent (SQLEXPRESS01)                      
+     Running SQLBrowser                     SQL Server Browser                                   
+StartPending SQLPBDMS$MSSQLSERVERDEV        SQL Server PolyBase Data Movement (MSSQLSERVERDEV)   
+     Stopped SQLPBENGINE$MSSQLSERVERDEV     SQL Server PolyBase Engine (MSSQLSERVERDEV)          
+     Running SQLTELEMETRY$MSSQLSERVERDEV    SQL Server CEIP service (MSSQLSERVERDEV)             
+     Running SQLTELEMETRY$SQLEXPRESS        SQL Server CEIP service (SQLEXPRESS)                 
+     Running SQLTELEMETRY$SQLEXPRESS01      SQL Server CEIP service (SQLEXPRESS01)               
+     Running SQLWriter                      SQL Server VSS Writer                                
+     Running SSASTELEMETRY$MSSQLSERVERDEV   SQL Server Analysis Services CEIP (MSSQLSERVERDEV)   
+SELECT @@VERSION AS SurumBilgisi; 
+Microsoft SQL Server 2019 (RTM-CU27-GDR) (KB5040948) - 15.0.4382.1 (X64)   Jul  1 2024 20:03:23   Copyright (C) 2019 Microsoft Corporation  Express Edition (64-bit) on Windows 10 Enterprise LTSC 2021 10.0 <X64> (Build 19044: )
+SELECT name, compatibility_level FROM sys.databases;
+
+
+npm uninstall -g @angular/cli
+
+removed 269 packages in 2s
+npm install -g @angular/cli@22
+
+ng version
+Node.js version v22.21.1 detected.
+The Angular CLI requires a minimum Node.js version of v22.22.3 or v24.15.0 or v26.0.0.
+
+Please update your Node.js version or visit https://nodejs.org/ for additional instructions.
+dotnet tool update --global dotnet-ef --version "10.0.*"
+Tool 'dotnet-ef' was successfully updated from version '9.0.5' to version '10.0.15'.
+dotnet ef --version
+Entity Framework Core .NET Command-line Tools
+10.0.15
+
+
+node -v 
+npm -v 
+ng version
+node -v
+v24.22.2
+npm -v
+11.19.1
+
+ng version
+
+     _                      _                 ____ _     ___
+    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+   / △ \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+ /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+                |___/
+    
+
+Angular CLI       : 22.2.6
+Node.js           : 24.22.2
+Package Manager   : npm 11.19.1
+Operating System  : win32 x64
+
+
+-- db/scripts/001_create_database_and_schemas.sql
+-- [Katman: Veritabanı / Altyapı]
+
+USE [master];
+GO
+
+-- Idempotent: tekrar çalıştırılırsa hata vermez, veritabanını SİLMEZ
+IF DB_ID(N'StockFlowDb') IS NULL
+BEGIN
+    CREATE DATABASE [StockFlowDb] COLLATE Turkish_100_CI_AS;
+END
+GO
+
+ALTER DATABASE [StockFlowDb] SET COMPATIBILITY_LEVEL = 150;                           -- SQL Server 2019 davranışı
+ALTER DATABASE [StockFlowDb] SET READ_COMMITTED_SNAPSHOT ON WITH ROLLBACK IMMEDIATE;  -- okuyanlar yazanları bloklamasın
+GO
+
+USE [StockFlowDb];
+GO
+
+-- CREATE SCHEMA bir batch'in ilk ifadesi olmak zorunda, bu yüzden EXEC ile sarıyoruz
+IF SCHEMA_ID(N'meta')      IS NULL EXEC (N'CREATE SCHEMA [meta]      AUTHORIZATION [dbo]');
+IF SCHEMA_ID(N'catalog')   IS NULL EXEC (N'CREATE SCHEMA [catalog]   AUTHORIZATION [dbo]');
+IF SCHEMA_ID(N'inventory') IS NULL EXEC (N'CREATE SCHEMA [inventory] AUTHORIZATION [dbo]');
+GO
+
+-- Hangi script'lerin uygulandığının günlüğü
+IF OBJECT_ID(N'meta.SchemaVersion', N'U') IS NULL
+BEGIN
+    CREATE TABLE [meta].[SchemaVersion]
+    (
+        [ScriptName]   nvarchar(200) NOT NULL,
+        [AppliedAtUtc] datetime2(0)  NOT NULL
+            CONSTRAINT [DF_SchemaVersion_AppliedAtUtc] DEFAULT (SYSUTCDATETIME()),
+        [AppliedBy]    sysname       NOT NULL
+            CONSTRAINT [DF_SchemaVersion_AppliedBy] DEFAULT (SUSER_SNAME()),
+        CONSTRAINT [PK_SchemaVersion] PRIMARY KEY CLUSTERED ([ScriptName])
+    );
+END
+GO
+
+IF NOT EXISTS (SELECT 1 FROM [meta].[SchemaVersion]
+               WHERE [ScriptName] = N'001_create_database_and_schemas')
+    INSERT INTO [meta].[SchemaVersion] ([ScriptName])
+    VALUES (N'001_create_database_and_schemas');
+GO
+-- db/scripts/verify/001_verify.sql
+-- [Katman: Veritabanı / Doğrulama]
+SELECT SERVERPROPERTY('Collation') AS SunucuCollation;
+SunucuCollation
+SQL_Latin1_General_CP1_CI_AS
+
+SELECT name, collation_name, compatibility_level, is_read_committed_snapshot_on
+FROM sys.databases WHERE name = N'StockFlowDb';
+name	collation_name	compatibility_level	is_read_committed_snapshot_on
+StockFlowDb	SQL_Latin1_General_CP1_CI_AS	150	1
+
+USE [StockFlowDb];
+SELECT name FROM sys.schemas WHERE name IN (N'meta', N'catalog', N'inventory');
+name
+catalog
+inventory
+meta
+SELECT * FROM meta.SchemaVersion;
+ScriptName	AppliedAtUtc	AppliedBy
+001_create_database_and_schemas	2026-11-11 15:06:50	ramazan
+
+
+
+-- db/scripts/002_create_catalog_tables.sql
+-- [Katman: Veritabanı / catalog şeması]
+USE [StockFlowDb];
+GO
+
+IF OBJECT_ID(N'catalog.Category', N'U') IS NULL
+BEGIN
+    CREATE TABLE [catalog].[Category]
+    (
+        [Id]            int           IDENTITY(1,1) NOT NULL,
+        [Name]          nvarchar(100) COLLATE Turkish_100_CI_AS NOT NULL,
+        [IsActive]      bit           NOT NULL CONSTRAINT [DF_Category_IsActive]     DEFAULT (1),
+        [CreatedAtUtc]  datetime2(3)  NOT NULL CONSTRAINT [DF_Category_CreatedAtUtc] DEFAULT (SYSUTCDATETIME()),
+        [ModifiedAtUtc] datetime2(3)  NULL,
+        [RowVersion]    rowversion    NOT NULL,
+        CONSTRAINT [PK_Category]      PRIMARY KEY CLUSTERED ([Id]),
+        CONSTRAINT [UQ_Category_Name] UNIQUE ([Name]),
+        CONSTRAINT [CK_Category_Name_NotBlank] CHECK (LTRIM(RTRIM([Name])) <> N'')
+    );
+END
+GO
+
+IF OBJECT_ID(N'catalog.UnitOfMeasure', N'U') IS NULL
+BEGIN
+    CREATE TABLE [catalog].[UnitOfMeasure]
+    (
+        [Id]            int          IDENTITY(1,1) NOT NULL,
+        [Code]          nvarchar(10) NOT NULL,
+        [Name]          nvarchar(50) COLLATE Turkish_100_CI_AS NOT NULL,
+        [DecimalPlaces] tinyint      NOT NULL,
+        [IsActive]      bit          NOT NULL CONSTRAINT [DF_UnitOfMeasure_IsActive]     DEFAULT (1),
+        [CreatedAtUtc]  datetime2(3) NOT NULL CONSTRAINT [DF_UnitOfMeasure_CreatedAtUtc] DEFAULT (SYSUTCDATETIME()),
+        [ModifiedAtUtc] datetime2(3) NULL,
+        [RowVersion]    rowversion   NOT NULL,
+        CONSTRAINT [PK_UnitOfMeasure]      PRIMARY KEY CLUSTERED ([Id]),
+        CONSTRAINT [UQ_UnitOfMeasure_Code] UNIQUE ([Code]),
+        CONSTRAINT [CK_UnitOfMeasure_DecimalPlaces] CHECK ([DecimalPlaces] <= 4),
+        CONSTRAINT [CK_UnitOfMeasure_Code_NotBlank] CHECK (LTRIM(RTRIM([Code])) <> N'')
+    );
+END
+GO
+
+IF OBJECT_ID(N'catalog.Product', N'U') IS NULL
+BEGIN
+    CREATE TABLE [catalog].[Product]
+    (
+        [Id]              int           IDENTITY(1,1) NOT NULL,
+        [Sku]             nvarchar(50)  NOT NULL,
+        [Barcode]         nvarchar(50)  NULL,
+        [Name]            nvarchar(200) COLLATE Turkish_100_CI_AS NOT NULL,
+        [CategoryId]      int           NOT NULL,
+        [UnitOfMeasureId] int           NOT NULL,
+        [MinStockLevel]   decimal(18,4) NOT NULL CONSTRAINT [DF_Product_MinStockLevel] DEFAULT (0),
+        [IsActive]        bit           NOT NULL CONSTRAINT [DF_Product_IsActive]       DEFAULT (1),
+        [CreatedAtUtc]    datetime2(3)  NOT NULL CONSTRAINT [DF_Product_CreatedAtUtc]   DEFAULT (SYSUTCDATETIME()),
+        [ModifiedAtUtc]   datetime2(3)  NULL,
+        [RowVersion]      rowversion    NOT NULL,
+        CONSTRAINT [PK_Product]       PRIMARY KEY CLUSTERED ([Id]),
+        CONSTRAINT [UQ_Product_Sku]   UNIQUE ([Sku]),
+        CONSTRAINT [FK_Product_Category]      FOREIGN KEY ([CategoryId])      REFERENCES [catalog].[Category]([Id]),
+        CONSTRAINT [FK_Product_UnitOfMeasure] FOREIGN KEY ([UnitOfMeasureId]) REFERENCES [catalog].[UnitOfMeasure]([Id]),
+        CONSTRAINT [CK_Product_MinStockLevel] CHECK ([MinStockLevel] >= 0),
+        CONSTRAINT [CK_Product_Sku_NotBlank]  CHECK (LTRIM(RTRIM([Sku])) <> N''),
+        CONSTRAINT [CK_Product_Name_NotBlank] CHECK (LTRIM(RTRIM([Name])) <> N'')
+    );
+
+    -- Barkod opsiyonel ama doluysa benzersiz: filtreli benzersiz indeks
+    CREATE UNIQUE NONCLUSTERED INDEX [UX_Product_Barcode]
+        ON [catalog].[Product] ([Barcode]) WHERE [Barcode] IS NOT NULL;
+
+    -- Yabancı anahtar kolonlarını SQL Server otomatik indekslemez
+    CREATE NONCLUSTERED INDEX [IX_Product_CategoryId]
+        ON [catalog].[Product] ([CategoryId]);
+END
+GO
+
+IF NOT EXISTS (SELECT 1 FROM [meta].[SchemaVersion] WHERE [ScriptName] = N'002_create_catalog_tables')
+    INSERT INTO [meta].[SchemaVersion] ([ScriptName]) VALUES (N'002_create_catalog_tables');
+GO
+
+-- db/scripts/003_seed_unit_of_measure.sql
+-- [Katman: Veritabanı / referans verisi]
+USE [StockFlowDb];
+GO
+
+INSERT INTO [catalog].[UnitOfMeasure] ([Code], [Name], [DecimalPlaces])
+SELECT v.[Code], v.[Name], v.[DecimalPlaces]
+FROM (VALUES (N'ADET', N'Adet',     0),
+             (N'KG',   N'Kilogram', 3),
+             (N'LT',   N'Litre',    3),
+             (N'MT',   N'Metre',    2)) AS v([Code], [Name], [DecimalPlaces])
+WHERE NOT EXISTS (SELECT 1 FROM [catalog].[UnitOfMeasure] u WHERE u.[Code] = v.[Code]);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM [meta].[SchemaVersion] WHERE [ScriptName] = N'003_seed_unit_of_measure')
+    INSERT INTO [meta].[SchemaVersion] ([ScriptName]) VALUES (N'003_seed_unit_of_measure');
+GO
+
+-- db/scripts/verify/002_constraint_tests.sql
+-- [Katman: Veritabanı / Doğrulama]
+USE [StockFlowDb];
+
+BEGIN TRAN;
+
+DECLARE @cat int, @uom int;
+INSERT [catalog].[Category] ([Name]) VALUES (N'Test');
+SET @cat = SCOPE_IDENTITY();
+SELECT @uom = [Id] FROM [catalog].[UnitOfMeasure] WHERE [Code] = N'ADET';
+
+-- ✅ başarılı olmalı
+INSERT [catalog].[Product] ([Sku],[Name],[CategoryId],[UnitOfMeasureId]) VALUES (N'abc-1', N'Ürün 1', @cat, @uom);
+
+-- ❌ Hata 1 beklenir: SKU büyük/küçük harf farkıyla aynı → UQ_Product_Sku
+INSERT [catalog].[Product] ([Sku],[Name],[CategoryId],[UnitOfMeasureId]) VALUES (N'ABC-1', N'Ürün 2', @cat, @uom);
+
+-- ❌ Hata 2 beklenir: negatif minimum stok → CK_Product_MinStockLevel
+INSERT [catalog].[Product] ([Sku],[Name],[CategoryId],[UnitOfMeasureId],[MinStockLevel]) VALUES (N'abc-2', N'Ürün 3', @cat, @uom, -5);
+
+-- ✅ iki ürün de barkodsuz (NULL) olabilir: başarılı olmalı
+INSERT [catalog].[Product] ([Sku],[Name],[CategoryId],[UnitOfMeasureId]) VALUES (N'abc-3', N'Ürün 4', @cat, @uom);
+INSERT [catalog].[Product] ([Sku],[Name],[CategoryId],[UnitOfMeasureId]) VALUES (N'abc-4', N'Ürün 5', @cat, @uom);
+
+-- ✅ + ❌ Hata 3 beklenir: aynı barkod ikinci kez → UX_Product_Barcode
+INSERT [catalog].[Product] ([Sku],[Name],[CategoryId],[UnitOfMeasureId],[Barcode]) VALUES (N'abc-5', N'Ürün 6', @cat, @uom, N'8690000000011');
+INSERT [catalog].[Product] ([Sku],[Name],[CategoryId],[UnitOfMeasureId],[Barcode]) VALUES (N'abc-6', N'Ürün 7', @cat, @uom, N'8690000000011');
+
+ROLLBACK;
+
+SELECT * FROM [meta].[SchemaVersion];
+
+
+-- db/scripts/004_create_inventory_ledger_tables.sql
+-- [Katman: Veritabanı / inventory şeması]
+USE [StockFlowDb];
+GO
+
+IF OBJECT_ID(N'inventory.Warehouse', N'U') IS NULL
+BEGIN
+    CREATE TABLE [inventory].[Warehouse]
+    (
+        [Id]            int           IDENTITY(1,1) NOT NULL,
+        [Code]          nvarchar(20)  NOT NULL,
+        [Name]          nvarchar(100) COLLATE Turkish_100_CI_AS NOT NULL,
+        [IsActive]      bit           NOT NULL CONSTRAINT [DF_Warehouse_IsActive]     DEFAULT (1),
+        [CreatedAtUtc]  datetime2(3)  NOT NULL CONSTRAINT [DF_Warehouse_CreatedAtUtc] DEFAULT (SYSUTCDATETIME()),
+        [ModifiedAtUtc] datetime2(3)  NULL,
+        [RowVersion]    rowversion    NOT NULL,
+        CONSTRAINT [PK_Warehouse]      PRIMARY KEY CLUSTERED ([Id]),
+        CONSTRAINT [UQ_Warehouse_Code] UNIQUE ([Code]),
+        CONSTRAINT [UQ_Warehouse_Name] UNIQUE ([Name]),
+        CONSTRAINT [CK_Warehouse_Code_NotBlank] CHECK (LTRIM(RTRIM([Code])) <> N''),
+        CONSTRAINT [CK_Warehouse_Name_NotBlank] CHECK (LTRIM(RTRIM([Name])) <> N'')
+    );
+END
+GO
+
+IF OBJECT_ID(N'inventory.StockDocument', N'U') IS NULL
+BEGIN
+    CREATE TABLE [inventory].[StockDocument]
+    (
+        [Id]                 bigint        IDENTITY(1,1) NOT NULL,
+        [DocumentType]       tinyint       NOT NULL,  -- 1=Giriş, 2=Çıkış, 3=Transfer, 4=Sayım Düzeltmesi
+        [OccurredAtUtc]      datetime2(3)  NOT NULL,  -- işin gerçekte olduğu an
+        [Note]               nvarchar(500) NULL,
+        [ReversesDocumentId] bigint        NULL,      -- bu belge hangi belgeyi ters çeviriyor
+        [CreatedAtUtc]       datetime2(3)  NOT NULL CONSTRAINT [DF_StockDocument_CreatedAtUtc] DEFAULT (SYSUTCDATETIME()), -- kaydın girildiği an
+        CONSTRAINT [PK_StockDocument] PRIMARY KEY CLUSTERED ([Id]),
+        CONSTRAINT [CK_StockDocument_DocumentType] CHECK ([DocumentType] IN (1, 2, 3, 4)),
+        CONSTRAINT [FK_StockDocument_ReversesDocument]
+            FOREIGN KEY ([ReversesDocumentId]) REFERENCES [inventory].[StockDocument] ([Id])
+    );
+
+    -- Bir belge en fazla bir kez ters çevrilebilir
+    CREATE UNIQUE NONCLUSTERED INDEX [UX_StockDocument_ReversesDocumentId]
+        ON [inventory].[StockDocument] ([ReversesDocumentId]) WHERE [ReversesDocumentId] IS NOT NULL;
+
+    CREATE NONCLUSTERED INDEX [IX_StockDocument_OccurredAtUtc]
+        ON [inventory].[StockDocument] ([OccurredAtUtc]);
+END
+GO
+
+IF OBJECT_ID(N'inventory.StockMovement', N'U') IS NULL
+BEGIN
+    CREATE TABLE [inventory].[StockMovement]
+    (
+        [Id]          bigint        IDENTITY(1,1) NOT NULL,
+        [DocumentId]  bigint        NOT NULL,
+        [ProductId]   int           NOT NULL,
+        [WarehouseId] int           NOT NULL,
+        [Quantity]    decimal(18,4) NOT NULL,  -- işaretli: giriş +, çıkış −
+        CONSTRAINT [PK_StockMovement] PRIMARY KEY CLUSTERED ([Id]),
+        CONSTRAINT [FK_StockMovement_Document]  FOREIGN KEY ([DocumentId])  REFERENCES [inventory].[StockDocument] ([Id]),
+        CONSTRAINT [FK_StockMovement_Product]   FOREIGN KEY ([ProductId])   REFERENCES [catalog].[Product] ([Id]),
+        CONSTRAINT [FK_StockMovement_Warehouse] FOREIGN KEY ([WarehouseId]) REFERENCES [inventory].[Warehouse] ([Id]),
+        CONSTRAINT [CK_StockMovement_Quantity_NotZero] CHECK ([Quantity] <> 0)
+    );
+
+    CREATE NONCLUSTERED INDEX [IX_StockMovement_DocumentId]
+        ON [inventory].[StockMovement] ([DocumentId]);
+
+    -- (Ürün, Depo) bazında SUM(Quantity) sorgularını tabloya dokunmadan karşılar
+    CREATE NONCLUSTERED INDEX [IX_StockMovement_ProductId_WarehouseId]
+        ON [inventory].[StockMovement] ([ProductId], [WarehouseId]) INCLUDE ([Quantity]);
+END
+GO
+
+-- Defterin değiştirilemezliğini veritabanı seviyesinde garanti eden emniyet kemeri
+CREATE OR ALTER TRIGGER [inventory].[TR_StockMovement_Immutable]
+ON [inventory].[StockMovement]
+AFTER UPDATE, DELETE
+AS
+BEGIN
+    SET NOCOUNT ON;
+    IF @@TRANCOUNT > 0 ROLLBACK TRANSACTION;
+    THROW 51001, N'inventory.StockMovement is immutable. Post a reversal document instead of UPDATE/DELETE.', 1;
+END
+GO
+
+IF NOT EXISTS (SELECT 1 FROM [meta].[SchemaVersion] WHERE [ScriptName] = N'004_create_inventory_ledger_tables')
+    INSERT INTO [meta].[SchemaVersion] ([ScriptName]) VALUES (N'004_create_inventory_ledger_tables');
+GO
+
+-- db/scripts/verify/004_ledger_tests.sql
+-- [Katman: Veritabanı / Doğrulama]
+USE [StockFlowDb];
+
+BEGIN TRAN;
+
+DECLARE @wA int, @wB int, @cat int, @uom int, @prod int, @doc bigint;
+
+INSERT [inventory].[Warehouse] ([Code],[Name]) VALUES (N'WH-A', N'Depo A'); SET @wA = SCOPE_IDENTITY();
+INSERT [inventory].[Warehouse] ([Code],[Name]) VALUES (N'WH-B', N'Depo B'); SET @wB = SCOPE_IDENTITY();
+INSERT [catalog].[Category] ([Name]) VALUES (N'Test');                     SET @cat = SCOPE_IDENTITY();
+SELECT @uom = [Id] FROM [catalog].[UnitOfMeasure] WHERE [Code] = N'ADET';
+INSERT [catalog].[Product] ([Sku],[Name],[CategoryId],[UnitOfMeasureId])
+VALUES (N'T-1', N'Test Ürün', @cat, @uom);                                 SET @prod = SCOPE_IDENTITY();
+
+-- ✅ Transfer: 1 belge, 2 satır (A'dan -10, B'ye +10)
+INSERT [inventory].[StockDocument] ([DocumentType],[OccurredAtUtc]) VALUES (3, SYSUTCDATETIME());
+SET @doc = SCOPE_IDENTITY();
+INSERT [inventory].[StockMovement] ([DocumentId],[ProductId],[WarehouseId],[Quantity])
+VALUES (@doc, @prod, @wA, -10), (@doc, @prod, @wB, 10);
+
+-- ❌ Hata 1 beklenir: miktar sıfır → CK_StockMovement_Quantity_NotZero
+INSERT [inventory].[StockMovement] ([DocumentId],[ProductId],[WarehouseId],[Quantity])
+VALUES (@doc, @prod, @wA, 0);
+
+-- ❌ Hata 2 beklenir: geçersiz belge türü → CK_StockDocument_DocumentType
+INSERT [inventory].[StockDocument] ([DocumentType],[OccurredAtUtc]) VALUES (9, SYSUTCDATETIME());
+
+-- ✅ Ters belge başarılı olmalı
+INSERT [inventory].[StockDocument] ([DocumentType],[OccurredAtUtc],[ReversesDocumentId])
+VALUES (3, SYSUTCDATETIME(), @doc);
+
+-- ❌ Hata 3 beklenir: aynı belge ikinci kez ters çevrilemez → UX_StockDocument_ReversesDocumentId
+INSERT [inventory].[StockDocument] ([DocumentType],[OccurredAtUtc],[ReversesDocumentId])
+VALUES (3, SYSUTCDATETIME(), @doc);
+
+-- Bilgi: transfer belgesinin satır toplamı 0 olmalı
+SELECT SUM([Quantity]) AS TransferToplami FROM [inventory].[StockMovement] WHERE [DocumentId] = @doc;
+
+-- ❌ Hata 4 beklenir (EN SONDA): defter satırı değiştirilemez → TR_StockMovement_Immutable
+UPDATE [inventory].[StockMovement] SET [Quantity] = 99 WHERE [DocumentId] = @doc;
+
+IF @@TRANCOUNT > 0 ROLLBACK;   -- trigger çalışırsa bu satıra hiç gelinmez, işlem zaten geri alınmış olur
+GO
+
+-- Kontrol: trigger işlemi geri aldıysa 0 olmalı
+SELECT COUNT(*) AS WarehouseSayisi FROM [inventory].[Warehouse];
+SELECT * FROM [meta].[SchemaVersion];
+
+
+-- db/scripts/005_create_stock_balance.sql
+-- [Katman: Veritabanı / inventory şeması]
+USE [StockFlowDb];
+GO
+
+IF OBJECT_ID(N'inventory.StockBalance', N'U') IS NULL
+BEGIN
+    CREATE TABLE [inventory].[StockBalance]
+    (
+        [ProductId]     int           NOT NULL,
+        [WarehouseId]   int           NOT NULL,
+        [OnHand]        decimal(18,4) NOT NULL CONSTRAINT [DF_StockBalance_OnHand] DEFAULT (0),
+        [ModifiedAtUtc] datetime2(3)  NOT NULL CONSTRAINT [DF_StockBalance_ModifiedAtUtc] DEFAULT (SYSUTCDATETIME()),
+        CONSTRAINT [PK_StockBalance] PRIMARY KEY CLUSTERED ([ProductId], [WarehouseId]),
+        CONSTRAINT [FK_StockBalance_Product]   FOREIGN KEY ([ProductId])   REFERENCES [catalog].[Product] ([Id]),
+        CONSTRAINT [FK_StockBalance_Warehouse] FOREIGN KEY ([WarehouseId]) REFERENCES [inventory].[Warehouse] ([Id]),
+        CONSTRAINT [CK_StockBalance_OnHand_NonNegative] CHECK ([OnHand] >= 0)   -- negatif stok: son savunma hattı
+    );
+
+    -- "Bu depoda neler var?" sorguları için (PK ürün öncelikli)
+    CREATE NONCLUSTERED INDEX [IX_StockBalance_WarehouseId]
+        ON [inventory].[StockBalance] ([WarehouseId]);
+END
+GO
+
+-- Değişmez kural izleyicisi: bakiye = hareket toplamı. Sağlıklı sistemde 0 satır döner
+CREATE OR ALTER VIEW [inventory].[vw_StockBalanceDrift]
+AS
+SELECT COALESCE(b.[ProductId],   m.[ProductId])   AS [ProductId],
+       COALESCE(b.[WarehouseId], m.[WarehouseId]) AS [WarehouseId],
+       ISNULL(b.[OnHand], 0) AS [BalanceOnHand],
+       ISNULL(m.[Total],  0) AS [LedgerTotal]
+FROM [inventory].[StockBalance] AS b
+FULL OUTER JOIN
+(
+    SELECT [ProductId], [WarehouseId], SUM([Quantity]) AS [Total]
+    FROM [inventory].[StockMovement]
+    GROUP BY [ProductId], [WarehouseId]
+) AS m
+    ON m.[ProductId] = b.[ProductId] AND m.[WarehouseId] = b.[WarehouseId]
+WHERE ISNULL(b.[OnHand], 0) <> ISNULL(m.[Total], 0);
+GO
+
+IF NOT EXISTS (SELECT 1 FROM [meta].[SchemaVersion] WHERE [ScriptName] = N'005_create_stock_balance')
+    INSERT INTO [meta].[SchemaVersion] ([ScriptName]) VALUES (N'005_create_stock_balance');
+GO
+-- db/scripts/verify/005_balance_tests.sql
+-- [Katman: Veritabanı / Doğrulama]
+USE [StockFlowDb];
+
+BEGIN TRAN;
+
+DECLARE @wA int, @cat int, @uom int, @prod int, @doc bigint, @rows int;
+
+INSERT [inventory].[Warehouse] ([Code],[Name]) VALUES (N'WH-A', N'Depo A'); SET @wA = SCOPE_IDENTITY();
+INSERT [catalog].[Category] ([Name]) VALUES (N'Test');                     SET @cat = SCOPE_IDENTITY();
+SELECT @uom = [Id] FROM [catalog].[UnitOfMeasure] WHERE [Code] = N'ADET';
+INSERT [catalog].[Product] ([Sku],[Name],[CategoryId],[UnitOfMeasureId])
+VALUES (N'T-1', N'Test Ürün', @cat, @uom);                                 SET @prod = SCOPE_IDENTITY();
+
+-- ✅ 1) Giriş +10: belge + hareket + bakiye satırı (ilk kez, satır yok → ekle)
+INSERT [inventory].[StockDocument] ([DocumentType],[OccurredAtUtc]) VALUES (1, SYSUTCDATETIME());
+SET @doc = SCOPE_IDENTITY();
+INSERT [inventory].[StockMovement] ([DocumentId],[ProductId],[WarehouseId],[Quantity]) VALUES (@doc, @prod, @wA, 10);
+INSERT [inventory].[StockBalance]  ([ProductId],[WarehouseId],[OnHand])                VALUES (@prod, @wA, 10);
+
+-- ✅ 2) Çıkış -4: yeterli stok var
+INSERT [inventory].[StockDocument] ([DocumentType],[OccurredAtUtc]) VALUES (2, SYSUTCDATETIME());
+SET @doc = SCOPE_IDENTITY();
+INSERT [inventory].[StockMovement] ([DocumentId],[ProductId],[WarehouseId],[Quantity]) VALUES (@doc, @prod, @wA, -4);
+UPDATE [inventory].[StockBalance]
+SET    [OnHand] = [OnHand] + (-4), [ModifiedAtUtc] = SYSUTCDATETIME()
+WHERE  [ProductId] = @prod AND [WarehouseId] = @wA AND [OnHand] + (-4) >= 0;
+SET @rows = @@ROWCOUNT;
+SELECT @rows AS Cikis4_EtkilenenSatir;      -- 1 beklenir
+
+-- ✅ 3) Çıkış -7: stok yetersiz (6 var). Hata YOK, 0 satır etkilenir
+UPDATE [inventory].[StockBalance]
+SET    [OnHand] = [OnHand] + (-7), [ModifiedAtUtc] = SYSUTCDATETIME()
+WHERE  [ProductId] = @prod AND [WarehouseId] = @wA AND [OnHand] + (-7) >= 0;
+SET @rows = @@ROWCOUNT;
+SELECT @rows AS Cikis7_EtkilenenSatir;      -- 0 beklenir (gerçek akışta belge geri alınır)
+
+-- ❌ 4) Koşulsuz UPDATE (hatalı kod): CHECK yakalar → Msg 547 beklenir
+UPDATE [inventory].[StockBalance] SET [OnHand] = [OnHand] - 100
+WHERE [ProductId] = @prod AND [WarehouseId] = @wA;
+
+-- Son durum
+SELECT [OnHand] FROM [inventory].[StockBalance] WHERE [ProductId] = @prod;   -- 6.0000 beklenir
+SELECT * FROM [inventory].[vw_StockBalanceDrift];                            -- 0 satır beklenir
+
+ROLLBACK;
+GO
+
+SELECT * FROM [meta].[SchemaVersion];   -- 5 satır beklenir
+
+ 
+
+ 
+
+-- db/scripts/verify/schema_lint.sql
+-- [Katman: Veritabanı / Doğrulama]
+USE [StockFlowDb];
+
+-- 1) Sistemin otomatik adlandırdığı kısıtlamalar → 0 satır beklenir
+SELECT [name] AS ConstraintName, N'PK/UQ' AS Tur FROM sys.key_constraints     WHERE is_system_named = 1
+UNION ALL SELECT [name], N'CHECK'   FROM sys.check_constraints   WHERE is_system_named = 1
+UNION ALL SELECT [name], N'DEFAULT' FROM sys.default_constraints WHERE is_system_named = 1
+UNION ALL SELECT [name], N'FK'      FROM sys.foreign_keys        WHERE is_system_named = 1;
+
+-- 2) Başında indeksi olmayan yabancı anahtar kolonları → 2 satır beklenir (aşağıda açıklıyorum)
+SELECT OBJECT_SCHEMA_NAME(fk.parent_object_id) AS SchemaName,
+       OBJECT_NAME(fk.parent_object_id)        AS TableName,
+       fk.[name]                               AS ForeignKeyName,
+       COL_NAME(fkc.parent_object_id, fkc.parent_column_id) AS ColumnName
+FROM sys.foreign_keys AS fk
+JOIN sys.foreign_key_columns AS fkc
+     ON fkc.constraint_object_id = fk.object_id AND fkc.constraint_column_id = 1
+WHERE NOT EXISTS (SELECT 1 FROM sys.index_columns AS ic
+                  WHERE ic.object_id = fkc.parent_object_id
+                    AND ic.column_id = fkc.parent_column_id
+                    AND ic.key_ordinal = 1);
+
+-- 3) Birincil anahtarı olmayan tablolar → 0 satır beklenir
+SELECT s.[name] AS SchemaName, t.[name] AS TableName
+FROM sys.tables AS t JOIN sys.schemas AS s ON s.schema_id = t.schema_id
+WHERE OBJECTPROPERTY(t.object_id, 'TableHasPrimaryKey') = 0;
+
+-- 4) dbo şemasında kullanıcı tablosu → 0 satır beklenir
+SELECT t.[name] AS TableName
+FROM sys.tables AS t JOIN sys.schemas AS s ON s.schema_id = t.schema_id
+WHERE s.[name] = N'dbo';
+
+-- db/dev/seed_demo_data.sql   [SADECE GELİŞTİRME, günlüğe yazılmaz]
+-- [Katman: Veritabanı / geliştirme verisi]
+USE [StockFlowDb];
+GO
+SET XACT_ABORT ON;
+BEGIN TRAN;
+
+IF EXISTS (SELECT 1 FROM [catalog].[Product] WHERE [Sku] LIKE N'DEMO-%')
+BEGIN
+    PRINT N'Demo veri zaten var, atlandı.';
+    ROLLBACK;
+    RETURN;
+END
+
+INSERT [catalog].[Category] ([Name]) VALUES (N'Gıda'), (N'Temizlik'), (N'Kırtasiye');
+INSERT [inventory].[Warehouse] ([Code],[Name]) VALUES (N'DEPO-IST', N'İstanbul Merkez Depo'), (N'DEPO-ANK', N'Ankara Depo');
+
+INSERT [catalog].[Product] ([Sku],[Barcode],[Name],[CategoryId],[UnitOfMeasureId],[MinStockLevel])
+SELECT v.[Sku], v.[Barcode], v.[Name], c.[Id], u.[Id], v.[Min]
+FROM (VALUES (N'DEMO-0001', N'8690000000001', N'Ayçiçek Yağı 5 L',     N'Gıda',      N'LT',   10),
+             (N'DEMO-0002', N'8690000000002', N'Toz Şeker',            N'Gıda',      N'KG',   50),
+             (N'DEMO-0003', NULL,             N'Çamaşır Suyu 1 L',     N'Temizlik',  N'ADET', 20),
+             (N'DEMO-0004', N'8690000000004', N'A4 Fotokopi Kağıdı',   N'Kırtasiye', N'ADET', 100)
+     ) AS v([Sku],[Barcode],[Name],[Cat],[Uom],[Min])
+JOIN [catalog].[Category]      AS c ON c.[Name] = v.[Cat]
+JOIN [catalog].[UnitOfMeasure] AS u ON u.[Code] = v.[Uom];
+
+DECLARE @d1 bigint, @d2 bigint, @d3 bigint;
+
+-- Belge 1: açılış girişi (İstanbul)
+INSERT [inventory].[StockDocument] ([DocumentType],[OccurredAtUtc],[Note])
+VALUES (1, DATEADD(DAY, -10, SYSUTCDATETIME()), N'Açılış girişi');
+SET @d1 = SCOPE_IDENTITY();
+INSERT [inventory].[StockMovement] ([DocumentId],[ProductId],[WarehouseId],[Quantity])
+SELECT @d1, p.[Id], w.[Id], v.[Qty]
+FROM (VALUES (N'DEMO-0001', 120), (N'DEMO-0002', 400), (N'DEMO-0003', 60), (N'DEMO-0004', 300)) AS v([Sku],[Qty])
+JOIN [catalog].[Product]     AS p ON p.[Sku]  = v.[Sku]
+JOIN [inventory].[Warehouse] AS w ON w.[Code] = N'DEPO-IST';
+
+-- Belge 2: İstanbul → Ankara transfer (1 belge, 4 satır)
+INSERT [inventory].[StockDocument] ([DocumentType],[OccurredAtUtc],[Note])
+VALUES (3, DATEADD(DAY, -5, SYSUTCDATETIME()), N'İstanbul → Ankara transfer');
+SET @d2 = SCOPE_IDENTITY();
+INSERT [inventory].[StockMovement] ([DocumentId],[ProductId],[WarehouseId],[Quantity])
+SELECT @d2, p.[Id], w.[Id], v.[Qty]
+FROM (VALUES (N'DEMO-0001', N'DEPO-IST', -40), (N'DEMO-0001', N'DEPO-ANK', 40),
+             (N'DEMO-0004', N'DEPO-IST', -100), (N'DEMO-0004', N'DEPO-ANK', 100)) AS v([Sku],[Wh],[Qty])
+JOIN [catalog].[Product]     AS p ON p.[Sku]  = v.[Sku]
+JOIN [inventory].[Warehouse] AS w ON w.[Code] = v.[Wh];
+
+-- Belge 3: çıkış (İstanbul)
+INSERT [inventory].[StockDocument] ([DocumentType],[OccurredAtUtc],[Note])
+VALUES (2, DATEADD(DAY, -2, SYSUTCDATETIME()), N'Satış çıkışı');
+SET @d3 = SCOPE_IDENTITY();
+INSERT [inventory].[StockMovement] ([DocumentId],[ProductId],[WarehouseId],[Quantity])
+SELECT @d3, p.[Id], w.[Id], v.[Qty]
+FROM (VALUES (N'DEMO-0002', -25), (N'DEMO-0003', -15)) AS v([Sku],[Qty])
+JOIN [catalog].[Product]     AS p ON p.[Sku]  = v.[Sku]
+JOIN [inventory].[Warehouse] AS w ON w.[Code] = N'DEPO-IST';
+
+-- Bakiyeyi defterden yeniden inşa et (onarım aracı olarak da kullanılır)
+IF NOT EXISTS (SELECT 1 FROM [inventory].[StockBalance])
+    INSERT [inventory].[StockBalance] ([ProductId],[WarehouseId],[OnHand])
+    SELECT [ProductId], [WarehouseId], SUM([Quantity])
+    FROM [inventory].[StockMovement]
+    GROUP BY [ProductId], [WarehouseId];
+
+COMMIT;
+GO
+
+SELECT p.[Sku], p.[Name], w.[Name] AS Depo, b.[OnHand], p.[MinStockLevel]
+FROM [inventory].[StockBalance] AS b
+JOIN [catalog].[Product]     AS p ON p.[Id] = b.[ProductId]
+JOIN [inventory].[Warehouse] AS w ON w.[Id] = b.[WarehouseId]
+ORDER BY p.[Sku], w.[Code];
+
+SELECT * FROM [inventory].[vw_StockBalanceDrift];   -- 0 satır beklenir
+
+Sorular ve Cevaplar
+1 Çıkış işleminde bakiye şu ifadeyle düşürülüyor: UPDATE StockBalance SET OnHand = OnHand + @Delta WHERE ... AND OnHand + @Delta >= 0. Bu kalıbın asıl amacı nedir?
+Okuma ile yazma arasındaki boşluğu kapatmak: kontrol ve yazma tek, bölünemez bir ifadede yapılır.
+
+Not quite. The correct answer is Okuma ile yazma arasındaki boşluğu kapatmak: kontrol ve yazma tek, bölünemez bir ifadede yapılır..Önce SELECT, sonra uygulamada karar, sonra UPDATE yapılırsa iki işlem aynı anda aynı eski değeri okuyup ikisi de onay alabilir (kayıp güncelleme). Koşullu UPDATE'te ikinci işlem satır kilidinde bekler ve güncel değerle koşulu yeniden değerlendirir. RCSI yalnızca okumaları kilitsiz yapar, UPDATE'ler kilit almaya devam eder. İfade hata fırlatmaz, 0 satır döner. CHECK ise son savunma hattı olarak kalır.
+
+2 Bakiye satırının mevcut olduğunu bildiğin bir çıkış için koşullu UPDATE 0 satır etkiledi. Hareket satırları ve belge zaten yazılmış durumda. Doğru davranış hangisidir?
+'Yetersiz stok' sonucuyla belge dahil tüm işlemi geri almak. Correct
+That’s right. 0 satır bir hata değil, bir sinyaldir ve uygulama bunu iş kuralı ihlali olarak ele alır. Hareket yazılıp bakiye düşmezse defter ile bakiye ayrışır (vw_StockBalanceDrift tam bunu yakalamak için var). Bu yüzden belge, hareketler ve bakiye güncellemesi tek işlemde olmak ve 0 satırda hepsi geri alınmak zorunda.
+
+
+
+3 Product.Barcode için neden düz UNIQUE kısıtlaması yerine filtreli benzersiz indeks (WHERE Barcode IS NOT NULL) kullandık?
+
+
+SQL Server'da düz UNIQUE yalnızca tek bir NULL'a izin verir; barkodsuz birden çok ürün için filtre gerekir. Correct
+
+That’s right. UNIQUE kısıtlaması NULL kabul eder ama SQL Server NULL'ları birbirine eşit sayar, bu yüzden yalnızca bir tane izin verir. Testte barkodsuz iki ürünün eklenebilmesini gördük. Filtre, 'doluysa benzersiz, boşsa serbest' kuralını kurar. Hız veya harf duyarlılığıyla ilgisi yok.
+
+
+
+
+4 StockMovement ve StockDocument tablolarında birincil anahtar bigint, Product ve Warehouse'ta int. Bu kuralın doğru gerekçesi hangisidir?
+Sınırsız büyüyen kayıt tablolarında taşma riski olduğu için bigint, sınırlı sayıdaki ana veri için 4 baytlık int yeterli ve her FK/indekste daha ucuz.
+
+That’s right. int yaklaşık 2,1 milyarda biter ve canlı bir defter tablosunda anahtar türünü değiştirmek çok pahalıdır. bigint 4 bayt daha fazla yer kaplar. Ana veri tablolarında satır sayısı sınırlı olduğundan int hem yeterli hem daha ekonomik. IDENTITY'nin boşluksuz olduğu varsayımı da yanlış, geri alınan işlemler boşluk bırakır.
+
+
+5 A deposundan B deposuna transfer neden 'tek belge + iki satır' (A'da -10, B'de +10) olarak modellendi?
+Her satır tek depo ve işaretli miktar taşıdığı için tüm hareket türleri aynı yapıya sığar ve depo bazlı sorgular UNION gerektirmez.
+Not quite. The correct answer is Her satır tek depo ve işaretli miktar taşıdığı için tüm hareket türleri aynı yapıya sığar ve depo bazlı sorgular UNION gerektirmez..Tek satırda iki depo kolonu teknik olarak mümkündür ama nullable kolonlar ve UNION'lı sorgular doğurur. İki satır aynı belgeye ve aynı işleme bağlı olmalıdır, ayrı işlemde yazılırsa yarım transfer olur. Satırlar arası toplam kuralını CHECK ile zorlayamayız.
+
+
+6 'Bir transfer belgesinin satır toplamı sıfır olmalı' kuralı bu tasarımda nasıl güvence altına alınıyor?
+
+Belgeyi yazan işlem bunu sağlar ve bir kontrol sorgusu doğrular; çünkü SQL Server'da satırlar arası ertelenmiş kısıtlama yoktur.
+. SQL Server'da birden çok satırı kapsayan ertelenmiş kısıtlama yoktur. Trigger'ımız yalnızca UPDATE ve DELETE'i engeller, toplamı kontrol etmez. OnHand >= 0 kuralı toplam sıfır kuralıyla ilgisizdir. Kuralı posting işlemi sağlar ve izleme sorgusu doğrular.
+
+7 Yanlış girilmiş bir stok belgesi nasıl düzeltilir?
+Eski belgeyi ReversesDocumentId ile işaret eden, hareketleri ters çeviren yeni bir belge yazılır.
+Defter değiştirilemezdir ve düzeltme yeni bir belgeyle yapılır. Trigger hem UPDATE hem DELETE'i engeller. Filtreli benzersiz indeks sayesinde aynı belge ikinci kez ters çevrilemez, böylece stok çift düşmez. Trigger'ı kapatmak, denetim izini yok eden bir yoldur.
+
+Önce Collation Nedir?
+
+- Sıralama (ORDER BY)
+- Karşılaştırma (=)
+- Büyük/Küçük harf duyarlılığı
+- Dil kuralları
+
+8 Veritabanı varsayılan collation'ını sunucuyla aynı bırakıp Türkçe collation'ı yalnızca Name kolonlarına vermemizin gerekçesi hangisidir?
+Neden tüm veritabanını Türkçe collation yapmadık da,
+
+yalnızca kullanıcıların gördüğü Name kolonlarında
+Türkçe sıralama kullandık?
+DB ile sunucu/tempdb collation farkı geçici tablo karşılaştırmalarında collation conflict riski doğurur; Türkçe sıralama ise yalnızca kullanıcıya gösterilen adlarda gerekir.
+Sunucumuz SQL_Latin1_General_CP1_CI_AS idi. Veritabanını farklı yapmak, #tmp tablolarında string karşılaştırırken conflict hatası riski getirir. Türkçe sıralama ve arama ise ürün/kategori/depo adlarında anlamlı. Kod kolonları (SKU, barkod) varsayılan CI collation ile zaten büyük/küçük harf duyarsız. EF Core ise kolon düzeyinde collation'ı destekler.
+
+
+
+9 Şema lint sorgusu FK_StockMovement_Warehouse'u 'başında indeksi olmayan yabancı anahtar' olarak raporladı. Tech Lead'in doğru tepkisi nedir?
+Gerekçesiyle bilinçli olarak kabul eder, depo geçmişi sorguları ihtiyaç olduğunda ölçerek karar verir.
+ Lint çıktısı otomatik hata değil, insan kararı gerektiren bir sinyaldir. Gereksiz indeks yazmayı yavaşlatır ve alan harcar. Bu satırı bilinçli kabul edip gerekçesini yazıyoruz. Depo geçmişi ekranı geldiğinde ölçüm yapıp indeks ekleyeceğiz. FK silmek veri bütünlüğünü bozar, sorguyu gizlemek ise kendi kendini kandırmaktır.
+
+İndeks Bedava Değildir
+İndeks maliyeti
+Disk Kullanır
+INSERT maliyetini artırır
+UPDATE maliyetini artırır
+Bakım maliyeti oluşturur
+
+
+
+10 A→B ve B→A karşılıklı iki transfer aynı anda çalışırken deadlock riskini azaltmak için hangisi yapılmalı?
+İki kullanıcı aynı anda karşılıklı transfer yapıyor:
+
+İşlem 1:
+A Deposu → B Deposu
+
+İşlem 2:
+B Deposu → A Deposu
+
+Bu durumda oluşabilecek deadlock riskini
+azaltmak için hangi yöntem kullanılmalıdır?
+
+Bakiye satırlarını her zaman sabit bir sırayla (örneğin ProductId, sonra WarehouseId artan) güncellemek.
+Deadlock, iki işlemin aynı iki satırı ters sırayla kilitlemesinden doğar. Sabit sıra bu döngüyü kırar. RCSI okuyucu-yazıcı çakışmasını azaltır, yazıcı-yazıcı çakışmasını çözmez, kapatmak durumu kötüleştirir. CHECK'i kaldırmak güvenliği düşürür ve sorunu çözmez. Tüm kullanıcıları seri hale getirmek ölçeklenmeyen bir çözümdür.
+
+
+
+Bitiş 

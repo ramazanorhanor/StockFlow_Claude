@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/DB_Scripts/">
+    <File Path="Db_sql.txt" />
+  </Folder>
+  <Folder Name="/ProjeNotlari/">
+    <File Path="ProjeNotlariClaude.txt" />
+  </Folder>
+  <Project Path="StockFlow.Api/StockFlow.Api.csproj" />
+  <Project Path="StockFlow.Application/StockFlow.Application.csproj" />
+  <Project Path="StockFlow.Domain/StockFlow.Domain.csproj" />
+  <Project Path="StockFlow.Infrastructure/StockFlow.Infrastructure.csproj" />
+</Solution>
